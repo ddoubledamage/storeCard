@@ -13,8 +13,9 @@ const ShopItemFunc = ({item: {brand, title, description, descriptionFull, price,
                 <div className="highlight-overlay"></div>
             </div>
             <div className="divider"></div>
-            <div className="purchaseInfo">
+            <div className="purchase-info">
                 <div className="price">{currency}{price}</div>
+                <button>Добавить в корзину</button>
             </div>
         </div>
     )
